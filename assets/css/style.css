@@ -135,7 +135,10 @@ footer h2 {
 }
 
 .project-img {
-    
+    border-left: 3px solid;
+    padding: 50px;
+    box-sizing: border-box;
+    display: block;
 }
 
 .project-img img {   
