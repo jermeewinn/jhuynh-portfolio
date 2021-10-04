@@ -2,6 +2,7 @@ body {
     font-family: Arial, Helvetica, sans-serif;
 }
 
+/* Begin Header*/
 header {
     padding: 20px 35px;
     display: flex;
@@ -41,7 +42,9 @@ header nav ul {
     align-items: center;
     list-style:inside;
 }
+/* End Header*/
 
+/* Begin Footer*/
 footer {
     width: 100%;
     padding: 40px 35px;
@@ -62,13 +65,22 @@ footer h2 {
     text-align: center;
     margin: 0 auto 35px auto;
     width: 50%;
+    padding-top: 10px;
 }
 
+.secondary-title {
+    font-size: 30px;
+    padding-bottom: 10px;
+}
+
+/* Begin About Me Section */
 .intro {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     align-items: flex-start;
+    background-color: #39a6b2;
+    margin: 10px 0 10px 0px;
 }
 
 .bio {
@@ -99,7 +111,9 @@ footer h2 {
     height: 325px;
     width: 325px;
 }
+/* End About Me Section*/
 
+/* Begin Your Work Section */
 .projects {
     border: solid;
 }
@@ -114,7 +128,10 @@ footer h2 {
 }
 
 .project {
-
+    flex: 1 0 0;
+    padding: 10px;
+    text-align: center;
+    box-sizing: border-box;
 }
 
 .project-img {
@@ -122,19 +139,21 @@ footer h2 {
 }
 
 .project-img img {   
-    width: 100px;
-    height: 100px;
+    width: 400px;
+    height: 350px;
     
 }
+/* End Your Work Section */
 
+/* Begin Contact Section*/
 .contact-me {
-
+    background-color: #39a6b2;
+    margin: 10px 0px 10px 0px;
+    padding-bottom: 50px;
 }
 
 .contact-info {
-
+    text-align: center;
+    font-weight: bold;
 }
-
-.external {
-
-}
+/* End Contact Section*/
